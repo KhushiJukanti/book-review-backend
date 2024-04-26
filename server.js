@@ -7,7 +7,7 @@ const cors = require('cors')
 const bookRoutes = require('./routes/book')
 
 
-mongoose.connect("mongodb://localhost:27017/book-project")
+mongoose.connect("mongodb://127.0.0.1:27017/book-project")
 
 
 const app = express();
